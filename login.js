@@ -26,6 +26,9 @@ document.getElementById('submit-button').addEventListener('click' , function(){
         {
             window.location.href = "main.html";
         }
+        else{
+            alert('You type wrong credential, name - admin , mail - admin@gmail.com, pass-123456, mob - 123456789')
+        }
 
 
     
